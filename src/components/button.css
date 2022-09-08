@@ -1,0 +1,65 @@
+.bHeader{
+    background-color: #1940B2;
+    border : none;
+    cursor: pointer;
+    color : #FFFF;
+    font-size: 14px;
+    font-family: Montserrat;
+    font-weight: 90;
+    border-radius: 20px;
+    padding-right: 0px 6px 0px 6px;
+    min-width: 80px;
+}
+.bHeader:hover {
+    background-color:#1940B2;
+    opacity: .6;
+}
+.impositivos {
+    cursor: pointer;
+    background-color: #E1EEF9;
+    border: none;
+    border-radius: 10px;
+    padding-right: 9px;
+    padding-left:9px;
+    padding-bottom: 4px;
+    padding-top: 3px;
+    color:#1E2F6F;
+    font-size: 12px;
+    margin-top: 15px;
+}
+.impositivos:hover{
+    opacity: .8;
+}
+.piscinaComunitaria{
+    cursor: pointer;
+    background-color: #FFFFFF;
+    border: solid .8px #e6e6e7;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding : 3px;
+    color:#1E2F6F!important;
+    font-size: 12px;
+    min-width: 80px;
+}
+.piscinaComunitaria:hover{
+    background-color: #e6e6e7;
+    opacity: .9;
+} 
+
+.precioCripto{
+    background-color: #1E2F6F;
+    border:none;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Montserrat;
+    font-size: 10px;
+    border-radius: 10px;
+    max-width: 100% !important;
+    min-width: 40px;
+    padding: 3px 4px 3px 4px ; 
+}
+.precioCripto:hover{
+    opacity: .6;
+}

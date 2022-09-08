@@ -1,0 +1,28 @@
+.header {
+    background-color: #FFFF;
+    box-shadow: 0px -1px 12px -7px rgba(106,106,106,0.5); /*el último elemento le da el contorno*/
+    height: 35px;
+    max-height: 45px;
+    display: flex;
+    align-content: center;
+    /* justify-content: center; */
+    justify-content: space-between;
+    padding: 8px 19px 8px 9px;
+}
+.bHear {
+    background-color: red;
+    min-width: 60px;
+}
+
+.material-symbols-outlined {
+  font-size: 18px;
+  color: #1940B2;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.iconsHeaderStyle {
+    display: flex;
+    justify-content: space-between;
+    width: 55px;
+}

@@ -1,0 +1,5 @@
+.conteinNavandMainconteiner{
+    background-color: #F7F7FE;
+    display: flex;
+    flex-direction: row;
+}

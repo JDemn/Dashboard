@@ -1,0 +1,26 @@
+.box {
+    display: block;
+    background-color: #FFFFFF;
+    height: 200px;
+    max-height: 600px;
+    width: 180px;
+    box-shadow: 0px -1px 11px -3px rgba(106,106,106,0.5); /*el último elemento le da el contorno*/
+    border-radius: 2px;
+}
+
+.headder{   
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 100;
+    display: flex;
+    justify-content: space-between;
+}
+.boxBody, .headder{
+    padding: 10px;
+    color:#1E2F6F;
+    font-size: 16px;
+}
+.boxBody > h4{
+    font-size: 14px;
+    font-weight: 480;
+}

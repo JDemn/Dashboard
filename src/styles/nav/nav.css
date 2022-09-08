@@ -1,0 +1,27 @@
+.nav{
+    background-color: #043290;
+    width: 260px!important;
+    max-width: 270px;
+    /* height: calc(100vh - 119px);
+    overflow-y: auto;
+    overflow-x: hidden; */
+}
+.navHeader{
+    color: #FFFF;
+    min-height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-family: Arial;
+}
+.bodyContent {
+    color: #FFFF;
+}
+hr {
+    color: #043290;
+    opacity: .6;
+}
+ul {
+    list-style: none;
+}
