@@ -3,3 +3,17 @@
     display: flex;
     flex-direction: row;
 }
+/*Scroll bar styles for chrome */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #d9d9d9;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #d9d9d9;
+}

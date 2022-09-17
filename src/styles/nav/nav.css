@@ -3,8 +3,22 @@
     width: 260px!important;
     max-width: 270px;
     /* height: calc(100vh - 119px);
-    overflow-y: auto;
     overflow-x: hidden; */
+    overflow-y: auto;
+}
+/* Scroll bar styles for chrome */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #d9d9d9;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #d9d9d9;
 }
 .navHeader{
     color: #FFFF;
@@ -12,7 +26,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-weight: 600;
+    font-family: Arial;
+}
+.ligth {
+    margin-left: 6px;
+    font-size: 19px;
+    font-weight: 50;
+}
+.strong {
+    font-size: 20px;
+    font-weight: 700;
     font-family: Arial;
 }
 .bodyContent {
@@ -24,14 +47,42 @@ hr {
 }
 ul {
     list-style: none;
-    /* background-color: olive; */
     display: flex;
-    height: 60vh;
-    max-height: 100vh;
+    height: auto;
+    height: 100vh;
     flex-direction: column;
-    justify-content: space-around;
+    margin: 0px;
+    /* overflow-y: auto; */
 }
 li {
     cursor: pointer;
-    /* background-color: red; */
+    display: flex;
+    margin-left: -26px;
+    margin-top: 20px;
+    height: 40px;
+    align-items: flex-start;
+}
+h4 {
+    align-self: center;
+    margin-left: 10px;
+    font-size: 17px;
+    font-weight: 300;
+}
+li:hover {
+    background-color: gray;
+    opacity: .5;
+}
+
+
+.navIcon{
+    position: relative;
+    align-self: center;
+    color: #FFFF;
+}
+
+@media (max-width: 1024px) { 
+    .nav{
+      display: none;
+    }
+
 }
